@@ -7,6 +7,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   
   def name
-    email.split('@')[0]
+    first_name + ' ' + last_name
   end
 end

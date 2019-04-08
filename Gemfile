@@ -18,6 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 gem 'bootstrap'
 gem 'redis'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 gem 'jquery-rails'
 
